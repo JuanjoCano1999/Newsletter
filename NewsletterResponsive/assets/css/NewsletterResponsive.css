@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: "Nunito";
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh !important;
+    background: url(../imgs/viajeParadisiaco5.png) no-repeat center;
+    background-size: cover;
+
+}
+
+.titulo1 {
+    margin-bottom: 40px;
+    font-size: 70px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+.titulo2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+#tituloR {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#tituloAcerca {
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.redes i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 30%;
+    color: #fff;
+    background: #ffffff;
+    font-size: 2rem;
+    margin: 15px;
+
+}
+
+
+.parrafo {
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: #fff;
+    padding: 0 100px;
+
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #8f425b;
+    color: #fff;
+    text-decoration: none;
+    background: #8f425b;
+
+}
+
+.boton:hover {
+    background: none;
+}
+
+.boton-home {
+    display: flex;
+}
+
+.boton-home a {
+    margin: 0 10px;
+}
+
+.contenido {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rutas {
+    padding: 30px;
+    background: rgb(255, 255, 255);
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#caja1 {
+    height: 11rem;
+    width: 17rem;
+    margin: 30px;
+    background: url(../imgs/viajeParadisiaco1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+}
+
+#caja2 {
+    height: 11rem;
+    width: 17rem;
+    margin: 30px;
+    background: url(../imgs/viajeParadisiaco2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+}
+
+#caja3 {
+    height: 11rem;
+    width: 17rem;
+    margin: 30px;
+    background: url(../imgs/viajeParadisiaco3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, 0.5);
+}
+
+
+.box a {
+    text-decoration: none;
+}
+
+.box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 30%;
+    color: #fff;
+    background: #ffffff;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+
+.box-descuento {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+h3 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.sobre {
+    background: #171717;
+}
+
+.descuento {
+    background: #171717;
+}
+
+.nosotros {
+    background: #fff;
+}
+
+#acerca {
+    color: black;
+}
+
+
+@media (max-width:760px) {
+
+    .tittle {
+        margin-bottom: 0px;
+        font-size: 40px;
+    }
+
+    .rutas {
+        height: 120vh;
+    }
+
+}
